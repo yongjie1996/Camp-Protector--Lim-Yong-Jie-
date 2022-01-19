@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1817321300322980}
+  m_IsPrefabAsset: 1
+--- !u!1 &1817321300322980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4127331520473190}
+  - component: {fileID: 114671398082679742}
+  m_Layer: 0
+  m_Name: LevelInformation
+  m_TagString: LevelInformation
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4127331520473190
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817321300322980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114671398082679742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817321300322980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74e8108d8ea51e49987868ff70eb846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreObject: {fileID: 0}
+  scoretext: {fileID: 0}
+  levelTime: 0
+  level: 0
+  lastScore: 0
+  score: 0
+  totalScore: 0
+  player: {fileID: 1611595741423980, guid: fb1718d2921bbda478b0d163a7d5cfcb, type: 2}
+  SaveText: {fileID: 0}
+  playerHPUpgrade: 0
+  playerHPUpgradeCost: 0
+  playerHPText: {fileID: 0}
+  PlayerMaxHP: {fileID: 0}
+  campHPUpgrade: 0
+  campHPUpgradeCost: 0
+  campHPText: {fileID: 0}
+  CampMaxHP: {fileID: 0}
+  machineGunLevel: 0
+  machineGunUpgradeCost: 0
+  machineGunText: {fileID: 0}
+  machineGunAttack: {fileID: 0}
+  rifleLevel: 0
+  rifleUpgradeCost: 0
+  rifleText: {fileID: 0}
+  rifleAttack: {fileID: 0}
+  handgunLevel: 0
+  handgunUpgradeCost: 0
+  handgunText: {fileID: 0}
+  handgunAttack: {fileID: 0}
+  shotgunLevel: 0
+  shotgunUpgradeCost: 0
+  shotgunText: {fileID: 0}
+  shotgunAttack: {fileID: 0}
+  turretLevel: 0
+  turretUpgradeCost: 0
+  turretText: {fileID: 0}
+  turretAttack: {fileID: 0}
+  healthKitCount: 0
+  attackUpCount: 0
+  defenseUpCount: 0
+  speedUpCount: 0
+  healthKitCostText: {fileID: 0}
+  attackUpCostText: {fileID: 0}
+  defenseUpCostText: {fileID: 0}
+  speedUpCostText: {fileID: 0}
+  healthKitCountText: {fileID: 0}
+  attackUpCountText: {fileID: 0}
+  defenseUpCountText: {fileID: 0}
+  speedUpCountText: {fileID: 0}
+  consumableCost: 0
+  Goblin: {fileID: 1233342207194054, guid: 63922bb3601e94442a0f017f59c80a5c, type: 2}
+  Wolf: {fileID: 1863342496987858, guid: 0497b103e9ffd3f4eb59fcd5151e8a53, type: 2}
+  sceneIndex: 4
+  slider: {fileID: 0}
+  text: {fileID: 0}
+  PlayerUI: {fileID: 0}
+  LoadingBar: {fileID: 0}
+  PrimaryUI: {fileID: 0}
+  UpgradeUI: {fileID: 0}
